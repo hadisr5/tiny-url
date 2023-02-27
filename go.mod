@@ -14,8 +14,8 @@ require (
 
 require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
-	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-redis/redis/v8 v8.11.5
+	github.com/go-sql-driver/mysql v1.7.0
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.6 // indirect

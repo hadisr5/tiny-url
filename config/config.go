@@ -57,10 +57,10 @@ func LoadConfig(configPath string) *SetupResult {
 		config.TagName = "yml"
 	})
 	if err != nil {
-		fmt.Println("Error in unmarshaling config")
+		fmt.Println("Error in unmarshaling config")	
+		panic(err)
 	}
-	panic(err)
-
+	
 	fmt.Printf("%v", Cfg)
 
 	mdb, err := initializeMySQL()
