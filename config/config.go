@@ -18,7 +18,7 @@ type config struct {
 	ApiToken ApiToken `yml:"ApiToken"`
 }
 type Mysql struct {
-	UserName           string `yml:"UserName"`
+	Username           string `yml:"Username"`
 	Password           string `yml:"Password"`
 	Host               string `yml:"Host"`
 	Port               string `yml:"Port"`

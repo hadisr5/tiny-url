@@ -13,7 +13,7 @@ import (
 func initializeMySQL() (*sql.DB, error) {
 	d, err := sql.Open("mysql",
 		fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&collation=utf8_unicode_ci&loc=%s&parseTime=true",
-			Cfg.Mysql.UserName,
+			Cfg.Mysql.Username,
 			Cfg.Mysql.Password,
 			Cfg.Mysql.Host,
 			Cfg.Mysql.Port,
